@@ -9,20 +9,8 @@ generateMainDiv();
 
 function getCategoryData() {
     const categoryList = [{
-        "id": "green",
-        "name": "Green",
-        "category": "COLOR"
-    }, {
         "id": "blue",
         "name": "Blue",
-        "category": "COLOR"
-    }, {
-        "id": "red",
-        "name": "Red",
-        "category": "COLOR"
-    }, {
-        "id": "yellow",
-        "name": "Yellow",
         "category": "COLOR"
     }, {
         "id": "lion",
@@ -33,9 +21,13 @@ function getCategoryData() {
         "name": "Dog",
         "category": "ANIMAL"
     }, {
-        "id": "elephant",
-        "name": "Elephant",
-        "category": "ANIMAL"
+        "id": "red",
+        "name": "Red",
+        "category": "COLOR"
+    }, {
+        "id": "yellow",
+        "name": "Yellow",
+        "category": "COLOR"
     }, {
         "id": "cat",
         "name": "Cat",
@@ -44,6 +36,22 @@ function getCategoryData() {
         "id": "banana",
         "name": "Banana",
         "category": "FRUIT"
+    }, {
+        "id": "tata",
+        "name": "Tata",
+        "category": "CAR"
+    }, {
+        "id": "honda",
+        "name": "Honda",
+        "category": "CAR"
+    }, {
+        "id": "green",
+        "name": "Green",
+        "category": "COLOR"
+    }, {
+        "id": "maruti",
+        "name": "Maruti",
+        "category": "CAR"
     }, {
         "id": "mango",
         "name": "Mango",
@@ -57,22 +65,14 @@ function getCategoryData() {
         "name": "Litchi",
         "category": "FRUIT"
     }, {
-        "id": "tata",
-        "name": "Tata",
-        "category": "CAR"
-    }, {
-        "id": "honda",
-        "name": "Honda",
-        "category": "CAR"
-    }, {
-        "id": "maruti",
-        "name": "Maruti",
-        "category": "CAR"
-    }, {
         "id": "kia",
         "name": "Kia",
         "category": "CAR"
-    }];
+    }, {
+        "id": "elephant",
+        "name": "Elephant",
+        "category": "ANIMAL"
+    },];
 
     return categoryList;
 }
