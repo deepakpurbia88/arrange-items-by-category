@@ -1,0 +1,15 @@
+h2 {
+    color: green;
+}
+
+#main-div {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item {
+    color: brown;
+    border-left: brown solid;
+    width: 250px;
+    border-width: 10px;
+}
